@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jesussoto.android.giphy">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_giphy"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_giphy"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Giphy">
+
+        <activity android:name="com.jesussoto.android.giphy.gifs.GifStreamActivity"
+            android:theme="@style/Theme.Giphy.GifStream"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.jesussoto.android.giphy.gifdetail.GIfDetailActivity"
+            android:parentActivityName="com.jesussoto.android.giphy.gifs.GifStreamActivity"/>
+
+    </application>
+
+</manifest>

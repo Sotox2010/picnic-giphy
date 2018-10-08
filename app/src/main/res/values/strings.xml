@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Giphy</string>
+
+    <string name="error_connection">There was an error while retrieving your gifs. Check your connection and try again.</string>
+    <string name="retry">Retry</string>
+    <string name="no_title">&lt;No title></string>
+    <string name="cd_giphy_logo">giphy logo</string>
+    <string name="cd_gif_view">gif</string>
+
+    <string name="random_error">Error loading gif. Will retry in 10 seconds</string>
+    <string name="random_loading">Loading random gif</string>
+
+
+    <!-- Detail screen -->
+
+
+</resources>
